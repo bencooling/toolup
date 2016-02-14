@@ -1,6 +1,6 @@
 {
   "name": "toolup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rapidly setup an es6, es7 or react dev environment",
   "main": "index.js",
   "dependencies": {
