@@ -1,6 +1,6 @@
 {
   "name": "toolup",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Rapidly setup an es6, es7 or react dev environment",
   "main": "lib/index.js",
   "dependencies": {
