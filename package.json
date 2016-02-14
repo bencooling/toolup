@@ -1,0 +1,28 @@
+{
+  "name": "babel-up",
+  "version": "1.0.0",
+  "description": "Like npm init but for babel!",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.5.1",
+    "inquirer": "^0.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "eslint-config-airbnb": "^5.0.0",
+    "sinon": "^1.17.3",
+    "tape": "^4.4.0"
+  },
+  "scripts": {
+    "test": "babel-node test",
+    "start": "babel-node index.js"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "toolup": "index.js"
+  },
+  "author": "Ben Cooling <office@bcooling.com.au> (http://bcooling.com.au)",
+  "license": "ISC"
+}
