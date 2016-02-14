@@ -3,7 +3,7 @@
 require('babel-register');
 
 const inquirer = require('inquirer');
-const shell = require('./lib/shell');
+const shell = require('./shell');
 
 // Assumes npm project (TODO: check for ./package.json)
 if (!shell.checkProjectJson()) {

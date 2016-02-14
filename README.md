@@ -24,7 +24,7 @@ $ npm run start
 ```
 
 
-## What exactly does tool-up do?
+## What exactly does toolup do?
 
 Inspired by `npm init` & `eslint --init`, toolup installs dependencies and config files for you.
 
