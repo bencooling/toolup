@@ -5,7 +5,7 @@ require('babel-register');
 const inquirer = require('inquirer');
 const shell = require('./shell');
 
-// Assumes npm project (TODO: check for ./package.json)
+// Assumes npm project, check for ./package.json
 if (!shell.checkProjectJson()) {
   process.stderr.write('no package.json file found, run npm init. \n');
   process.exit(1);
@@ -29,5 +29,4 @@ inquirer.prompt([{
     .on('close', () => process.stdout.write('dependencies installed. \n'));
   setup.writeConfigFiles();
   setup.writeNpmRunScripts();
-
 });

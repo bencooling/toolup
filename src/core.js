@@ -15,7 +15,7 @@ const core = ({ fs, path, child_process }) => {
 
   // given all answers, return a valid type for *ByType methods to work with
   const _getType = allAnswers => {
-    const subTypes = ['react', 'webpack', 'server']; // TODO: add es2015 and stage-* support
+    const subTypes = ['react', 'webpack', 'server'];
     const camelCase = arr =>
       arr.reduce((str, subType) => str + subType[0].toUpperCase() + subType.slice(1));
     const chosenSubTypes =
