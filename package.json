@@ -25,7 +25,8 @@
     "tool",
     "cli",
     "es6",
-    "fatique"
+    "fatique",
+    "toolup"
   ],
   "preferGlobal": true,
   "bin": {
