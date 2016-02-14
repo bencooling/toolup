@@ -1,5 +1,7 @@
 # tool-up 🛠
 
+[![Build Status](https://travis-ci.org/bencooling/toolup.svg?branch=master)](https://travis-ci.org/bencooling/toolup)
+
 > Rapidly setup an es6, es7 or react dev environment
 
 ```

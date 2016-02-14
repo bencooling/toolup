@@ -19,6 +19,14 @@
     "test": "babel-node test",
     "start": "babel-node index.js"
   },
+  "keywords": [
+    "babel",
+    "webpack",
+    "tool",
+    "cli",
+    "es6",
+    "fatique",
+  ],
   "preferGlobal": true,
   "bin": {
     "toolup": "index.js"
