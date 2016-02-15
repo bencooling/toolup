@@ -30,8 +30,10 @@ $ npm run start
 
 
 ## What exactly does toolup do?
-
-Inspired by `npm init` & `eslint --init`, toolup installs dependencies and config files for you.
+Kinda like `npm init` or `eslint --init`, toolup:    
+1. Installs dependencies (babel presets, loaders, libraries)
+2. Creates config files (.babelrc, webpack.config.js)
+3. Adds a npm run script
 
 
 ## What should I do next?
